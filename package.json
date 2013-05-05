@@ -1,0 +1,37 @@
+{
+  "name": "myriad-cucumber-js-example",
+  "description": "Example of how to use myriad-cucumber to execute cucumber-js tests in parallel across multiple processes or machines",
+  "keywords": [
+    "cucumber",
+    "cucumber-js",
+    "grid",
+    "parallel",
+    "scale",
+    "myriad",
+    "myriad-cucumber"
+  ],
+  "version": "0.1.0",
+  "homepage": "http://github.com/simondean/myriad-cucumber-js-example",
+  "author": "Simon Dean <simon@simondean.org> (http://www.simondean.org)",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/simondean/myriad-cucumber-js-example.git"
+  },
+  "bugs": {
+    "url": "http://github.com/simondean/myriad-cucumber-js-example/issues"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "cucumber": "~0.3.0"
+  },
+  "devDependencies": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/simondean/myriad-cucumber-js-example/LICENSE"
+    }
+  ]
+}
