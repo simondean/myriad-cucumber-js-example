@@ -27,7 +27,10 @@
   "dependencies": {
     "cucumber": "~0.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "myriad-cucumber": "~0.1.0",
+    "myriad-server": "~0.1.0"
+  },
   "licenses": [
     {
       "type": "MIT",

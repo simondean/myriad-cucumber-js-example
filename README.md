@@ -15,9 +15,16 @@ $ npm install --dev
 
 ### Run
 
-The tests are executed by running
+The tests are executed by running the following commands in three separate terminals:
 
 ``` shell
-$ node_modules/.bin/myriad-server &
-$ node_modules/.bin/myriad-cucumber --workers 4 --myriad-server http://localhost:7777 --local-package
+$ node_modules/.bin/myriad-server
+```
+
+``` shell
+$ node example-api-under-test
+```
+
+``` shell
+$ node_modules/.bin/myriad-cucumber --workers 4 --myriad-server http://localhost:7777
 ```

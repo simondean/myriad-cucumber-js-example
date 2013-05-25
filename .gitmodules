@@ -1,0 +1,3 @@
+[submodule "example-api-under-test"]
+	path = example-api-under-test
+	url = git://github.com/simondean/example-api-under-test.git
