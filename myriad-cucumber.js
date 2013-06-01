@@ -3,11 +3,11 @@ module.exports = {
   features: ['features'],
   profiles: {
     blue: {
-      bin: 'node_modules/.bin/cucumber-js',
+      bin: 'monkey_patches/.bin/cucumber-js',
       args: ['-format', 'json', '-t', '@api']
     },
     red: {
-      bin: 'node_modules/.bin/cucumber-js',
+      bin: 'monkey_patches/.bin/cucumber-js',
       args: ['-format', 'json', '-t', '@api']
     }
   }
