@@ -25,7 +25,8 @@
     "node": ">=0.6"
   },
   "scripts": {
-    "test": "cuketree"
+    "test": "cuketree",
+    "start": "cuketree -c ide"
   },
   "dependencies": {
     "cucumber": "~0.3.0"

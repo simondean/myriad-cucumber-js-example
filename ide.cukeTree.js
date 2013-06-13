@@ -1,9 +1,13 @@
+var CukeTree = require("cuke-tree");
+
 module.exports = {
-  "command": "run",
+  "command": "ide",
   "input": "./tmp/report.json",
   "output": "./tmp/report/",
   "features": "./features/",
   "bin": "node ./node_modules/myriad-cucumber/bin/myriad-cucumber --workers=4",
-  "run": "./features/",
-  "ext": []
+  "launch": true,
+  "ext": [
+    CukeTree.extensions.test_suite
+  ]
 };
