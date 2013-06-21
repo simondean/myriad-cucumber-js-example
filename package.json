@@ -34,7 +34,8 @@
   "devDependencies": {
     "myriad-cucumber": "~0.1.0",
     "myriad-server": "~0.1.0",
-    "cuke-tree": "~0.2.16"
+    "grunt": "~0.4.1",
+    "grunt-cuke-tree": "~0.1.0"
   },
   "licenses": [
     {

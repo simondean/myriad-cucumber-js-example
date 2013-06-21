@@ -1,4 +1,5 @@
 .idea/
 *.iml
 temp.js
+tmp/
 myriad/
