@@ -11,6 +11,7 @@
     "myriad-cucumber"
   ],
   "version": "0.1.0",
+  "private": true,
   "homepage": "http://github.com/simondean/myriad-cucumber-js-example",
   "author": "Simon Dean <simon@simondean.org> (http://www.simondean.org)",
   "contributors": [],
@@ -32,7 +33,7 @@
     "cucumber": "~0.3.0"
   },
   "devDependencies": {
-    "myriad-cucumber": "~0.2.1",
+    "myriad-cucumber": "~0.2.2",
     "myriad-server": "~0.2.2",
     "grunt": "~0.4.1",
     "grunt-cuke-tree": "~0.1.0",
