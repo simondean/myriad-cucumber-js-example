@@ -2,13 +2,19 @@ module.exports = {
   package: '.',
   features: ['features'],
   profiles: {
-    blue: {
+    busy_wait: {
       bin: 'monkey_patches/.bin/cucumber-js',
-      args: ['-format', 'json', '-t', '@api']
+      args: ['-format', 'json', '-t', '~@wip', '--require', './features'],
+      env: {
+        WAIT: 'busy'
+      }
     },
-    red: {
+    sleep_wait: {
       bin: 'monkey_patches/.bin/cucumber-js',
-      args: ['-format', 'json', '-t', '@api']
+      args: ['-format', 'json', '-t', '~@wip', '--require', './features'],
+      env: {
+        WAIT: 'sleep'
+      }
     }
   }
 };
