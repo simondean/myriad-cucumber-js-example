@@ -1,6 +1,5 @@
 module.exports = {
   package: '.',
-  features: ['features'],
   profiles: {
     busy_wait: {
       bin: 'monkey_patches/.bin/cucumber-js',
